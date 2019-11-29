@@ -1,0 +1,18 @@
+spring:
+  session:
+    store-type: redis
+    #  ms 毫秒  s秒  m 分钟  h 时 d 天
+    timeout: 1d
+  redis:
+    host: 119.23.190.71
+    port: 6379
+    database: 1
+    password: ""
+    jedis:
+      pool:
+        max-wait: -1
+        max-active: 8
+        max-idle: 8
+        min-idle: 1
+    timeout: 10000
+

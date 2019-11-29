@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d9501763-4910-45e1-b1b4-67665e14c78c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-community.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mq-server-consumer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mq-server-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mq-server-consumer/src/main/java/com/zw/mq/mqserverconsumer/MqServerConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mq-server-consumer/src/main/java/com/zw/mq/mqserverconsumer/listener/TestHelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mq-server-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mq-server-consumer/src/test/java/com/zw/mq/mqserverconsumer/MqServerConsumerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mq-server-producer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mq-server-producer/src/main/java/com/zw/mq/mqserverconsumer/MqServerConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mq-server-producer/src/main/java/com/zw/mq/mqserverconsumer/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mq-server-producer/src/main/java/com/zw/mq/mqserverconsumer/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mq-server-producer/src/main/java/com/zw/mq/mqserverconsumer/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mq-server-producer/src/main/java/com/zw/mq/mqserverconsumer/service/msg/MqMsgService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mq-server-producer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mq-server-producer/src/test/java/com/zw/mq/mqserverconsumer/MqServerConsumerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mq-server-producer/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mq-server-producer/target/classes/com/zw/mq/mqserverconsumer/MqServerConsumerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mq-server-producer/target/classes/com/zw/mq/mqserverconsumer/entity/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mq-server-producer/target/classes/com/zw/mq/mqserverconsumer/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mq-server-producer/target/classes/com/zw/mq/mqserverconsumer/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mq-server-producer/target/classes/com/zw/mq/mqserverconsumer/service/msg/MqMsgService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mq-server-producer/target/classes/com/zw/mq/mqserverconsumer/service/msg/MqMsgService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mq-server-producer/target/test-classes/com/zw/mq/mqserverconsumer/MqServerConsumerApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mybatis-redis-cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mybatis-redis-cache/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mybatis-redis-cache/src/main/java/com/zw/smart/cache/MybatisRedisCacheApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mybatis-redis-cache/src/main/java/com/zw/smart/cache/cache/ApplicationContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mybatis-redis-cache/src/main/java/com/zw/smart/cache/cache/MybatisRedisCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mybatis-redis-cache/src/main/java/com/zw/smart/cache/configuration/RedisConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mybatis-redis-cache/src/main/java/com/zw/smart/cache/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mybatis-redis-cache/src/main/java/com/zw/smart/cache/entity/BusinessBuildingRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mybatis-redis-cache/src/main/java/com/zw/smart/cache/mapper/BusinessBuildingRoomMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mybatis-redis-cache/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mybatis-redis-cache/src/main/resources/mapper/BusinessBuildingRoomMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mybatis-redis-cache/src/test/java/com/zw/smart/cache/MybatisRedisCacheApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/mybatis-redis-cache/src/test/java/com/zw/smart/cache/mapper/BusinessBuildingRoomMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/rocketmq/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/sb-redis-example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/src/main/java/com/zw/smart/assets/RedisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/src/main/java/com/zw/smart/assets/configuration/RedisConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/src/main/java/com/zw/smart/assets/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/src/main/java/com/zw/smart/assets/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/src/main/java/com/zw/smart/assets/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/src/main/java/com/zw/smart/assets/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/src/main/java/com/zw/smart/assets/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/src/main/java/com/zw/smart/assets/utils/RedisKeyConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/src/main/java/com/zw/smart/assets/utils/RedisKeyUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/src/main/java/com/zw/smart/assets/utils/RedisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/src/main/java/com/zw/smart/assets/utils/RedisServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/src/test/java/com/zw/smart/assets/HashRedisTemplateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/src/test/java/com/zw/smart/assets/ListRedisTemplateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/src/test/java/com/zw/smart/assets/SetRedisTemplateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/src/test/java/com/zw/smart/assets/StringRedisTemplateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/src/test/java/com/zw/smart/assets/ZSetRedisTemplateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/target/classes/com/zw/smart/assets/RedisApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/target/classes/com/zw/smart/assets/configuration/RedisConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/target/classes/com/zw/smart/assets/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/target/classes/com/zw/smart/assets/entity/User$UserBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/target/classes/com/zw/smart/assets/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/target/classes/com/zw/smart/assets/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/target/classes/com/zw/smart/assets/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/target/classes/com/zw/smart/assets/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/target/classes/com/zw/smart/assets/utils/RedisKeyConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/target/classes/com/zw/smart/assets/utils/RedisKeyUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/target/classes/com/zw/smart/assets/utils/RedisService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/target/classes/com/zw/smart/assets/utils/RedisServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/target/test-classes/com/zw/smart/assets/HashRedisTemplateTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/target/test-classes/com/zw/smart/assets/ListRedisTemplateTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/target/test-classes/com/zw/smart/assets/SetRedisTemplateTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/target/test-classes/com/zw/smart/assets/StringRedisTemplateTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-demo/sb-redis-example/target/test-classes/com/zw/smart/assets/ZSetRedisTemplateTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/src/main/java/com/zw/smart/maill/MaillApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/src/main/java/com/zw/smart/maill/configuration/RedisConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/src/main/java/com/zw/smart/maill/dto/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/src/main/java/com/zw/smart/maill/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/src/main/java/com/zw/smart/maill/listener/MailListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/src/main/java/com/zw/smart/maill/utils/CommonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/src/main/java/com/zw/smart/maill/utils/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/src/main/java/com/zw/smart/maill/utils/MailUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/src/main/java/com/zw/smart/maill/utils/RedisKeyConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/src/main/java/com/zw/smart/maill/utils/RedisKeyUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/src/main/java/com/zw/smart/maill/utils/RedisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/src/main/java/com/zw/smart/maill/utils/RedisServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/src/main/java/com/zw/smart/remember/MailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/src/main/java/com/zw/smart/remember/impl/MailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/src/main/resources/支付宝激活邮箱.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/target/classes/com/zw/smart/maill/MaillApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/target/classes/com/zw/smart/maill/configuration/RedisConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/target/classes/com/zw/smart/maill/dto/Email.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/target/classes/com/zw/smart/maill/dto/UserDto$UserDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/target/classes/com/zw/smart/maill/dto/UserDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/target/classes/com/zw/smart/maill/listener/MailListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/target/classes/com/zw/smart/maill/utils/CommonUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/target/classes/com/zw/smart/maill/utils/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/target/classes/com/zw/smart/maill/utils/MailUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/target/classes/com/zw/smart/maill/utils/RedisKeyConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/target/classes/com/zw/smart/maill/utils/RedisKeyUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/target/classes/com/zw/smart/maill/utils/RedisService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/target/classes/com/zw/smart/maill/utils/RedisServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/target/classes/com/zw/smart/remember/MailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/target/classes/com/zw/smart/remember/impl/MailServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-mail/target/classes/支付宝激活邮箱.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-hello/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-hello/src/main/java/com/zw/smart/hello/HelloSecurityApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-hello/src/main/java/com/zw/smart/hello/configuration/CustomWebSecurityConfigurerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-hello/src/main/java/com/zw/smart/hello/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-hello/src/main/java/com/zw/smart/hello/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-hello/src/main/java/com/zw/smart/hello/handler/CustomFailHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-hello/src/main/java/com/zw/smart/hello/handler/CustomSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-hello/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-hello/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-hello/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-hello/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-hello/target/classes/com/zw/smart/hello/HelloSecurityApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-hello/target/classes/com/zw/smart/hello/configuration/CustomWebSecurityConfigurerAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-hello/target/classes/com/zw/smart/hello/controller/IndexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-hello/target/classes/com/zw/smart/hello/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-hello/target/classes/com/zw/smart/hello/handler/CustomFailHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-hello/target/classes/com/zw/smart/hello/handler/CustomSuccessHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-hello/target/classes/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-hello/target/classes/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-mybatis.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-remember/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-remember/src/main/java/com/zw/smart/remember/SecurityRememberApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-remember/src/main/java/com/zw/smart/remember/configuration/CustomWebSecurityConfigurerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-remember/src/main/java/com/zw/smart/remember/configuration/RedisConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-remember/src/main/java/com/zw/smart/remember/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-remember/src/main/java/com/zw/smart/remember/controller/UerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-remember/src/main/java/com/zw/smart/remember/dao/RedisPersistentTokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-remember/src/main/java/com/zw/smart/remember/handler/CustomLogoutHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-remember/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-remember/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-remember/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-remember/src/test/java/com/zw/smart/remember/UerControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-remember/src/test/java/com/zw/smart/remember/controller/IndexControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-remember/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-remember/target/classes/com/zw/smart/remember/SecurityRememberApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-remember/target/classes/com/zw/smart/remember/configuration/CustomWebSecurityConfigurerAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-remember/target/classes/com/zw/smart/remember/configuration/RedisConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-remember/target/classes/com/zw/smart/remember/controller/IndexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-remember/target/classes/com/zw/smart/remember/controller/UerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-remember/target/classes/com/zw/smart/remember/dao/RedisPersistentTokenRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-remember/target/classes/com/zw/smart/remember/handler/CustomLogoutHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-remember/target/classes/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-remember/target/classes/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-remember/target/test-classes/com/zw/smart/remember/UerControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-remember/target/test-classes/com/zw/smart/remember/controller/IndexControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-session/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-session/src/main/java/com/zw/smart/session/SecuritySessionApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-session/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-session/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-session/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-session/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-session/target/classes/com/zw/smart/session/SecuritySessionApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-session/target/classes/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-security-parent/smart-security-session/target/classes/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-user-center/docker/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-user-center/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-user-center/src/main/java/com/zw/smart/account/AccountApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-user-center/src/main/java/com/zw/smart/account/common/result/BaseResponseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-user-center/src/main/java/com/zw/smart/account/common/result/ErrorResponseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-user-center/src/main/java/com/zw/smart/account/common/result/ResponseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-user-center/src/main/java/com/zw/smart/account/common/result/ResponseStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-user-center/src/main/java/com/zw/smart/account/common/utils/TestUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-user-center/src/main/java/com/zw/smart/account/common/utils/redis/RedisKeyConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-user-center/src/main/java/com/zw/smart/account/common/utils/redis/RedisKeyUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-user-center/src/main/java/com/zw/smart/account/common/utils/redis/RedisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-user-center/src/main/java/com/zw/smart/account/common/utils/redis/RedisServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-user-center/src/main/java/com/zw/smart/account/configuration/RedisConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-user-center/src/main/java/com/zw/smart/account/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-user-center/src/main/java/com/zw/smart/account/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-user-center/src/main/java/com/zw/smart/account/domain/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-user-center/src/main/java/com/zw/smart/account/domain/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-user-center/src/main/java/com/zw/smart/account/execption/ServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-user-center/src/main/java/com/zw/smart/account/handler/BaseExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-user-center/src/main/java/com/zw/smart/account/handler/BaseResultHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-user-center/src/main/java/com/zw/smart/account/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-user-center/src/main/java/com/zw/smart/account/message/MqMailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-user-center/src/main/java/com/zw/smart/account/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-user-center/src/main/java/com/zw/smart/account/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-user-center/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-user-center/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-user-center/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-user-center/src/test/java/com/zw/smart/account/service/impl/UserServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-user-center/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-user-center/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-user-center/target/classes/mappers/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-user-center/target/test-classes/com/zw/smart/account/service/impl/UserServiceImplTest.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/smart-mail/target/" />
+    <ignored path="$PROJECT_DIR$/smart-security-parent/target/" />
+    <ignored path="$PROJECT_DIR$/smart-security-parent/smart-security-mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/smart-demo/mybatis-redis-cache/target/" />
+    <ignored path="$PROJECT_DIR$/smart-security-parent/smart-security-session/target/" />
+    <ignored path="$PROJECT_DIR$/smart-community-dependencies/target/" />
+    <ignored path="$PROJECT_DIR$/smart-security-parent/smart-security-remember/target/" />
+    <ignored path="$PROJECT_DIR$/smart-demo/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/smart-demo/mq-server-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/smart-demo/sb-redis-example/target/" />
+    <ignored path="$PROJECT_DIR$/smart-user-center/target/" />
+    <ignored path="$PROJECT_DIR$/smart-security-parent/smart-security-hello/target/" />
+    <ignored path="$PROJECT_DIR$/smart-demo/mq-server-producer/target/" />
+    <ignored path="$PROJECT_DIR$/smart-community-business/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db_security@112.74.42.138" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/smart-security-parent/smart-security-mybatis/src/main/java/com/zw/smart/mybaits/entity/SysUser.java" />
+        <option value="$PROJECT_DIR$/smart-security-parent/smart-security-mybatis/src/test/java/com/zw/smart/mybaits/mapper/SysUserMapperTest.java" />
+        <option value="$PROJECT_DIR$/smart-community-dependencies/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\work\IdeaProjects\smart-community\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/MAVEN/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="E:\MAVEN\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-80" />
+    <option name="y" value="120" />
+    <option name="width" value="1300" />
+    <option name="height" value="700" />
+  </component>
+  <component name="ProjectId" id="1Txs3SRqksX7DMIqWarWD84F1Nc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="smart-community" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart-community" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="MyBatisLogPluginparameters" value="Parameters:" />
+    <property name="MyBatisLogPluginpreparing" value="Preparing:" />
+    <property name="MyBatisLogPluginrunning" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.zw.smart.mybaits.mapper" />
+      <recent name="com.zw.smart.remember.controller" />
+      <recent name="com.zw.smart.remember" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zw.smart.remember.configuration" />
+      <recent name="com.zw.smart.hello.handler" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\IdeaProjects\smart-community\smart-security-parent" />
+      <recent name="D:\work\IdeaProjects\smart-community\smart-security-parent\smart-security-remember\src" />
+      <recent name="D:\work\IdeaProjects\smart-community\smart-security-parent\smart-security-hello" />
+      <recent name="D:\work\IdeaProjects\smart-community" />
+      <recent name="D:\work\IdeaProjects\smart-community\smart-mail\src\main\java\com\zw\smart\maill\utils" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\IdeaProjects\smart-community\smart-security-parent\smart-security-remember\src\main\test\java" />
+      <recent name="D:\work\IdeaProjects\smart-community\smart-security-parent" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="Found 9 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.SysUserMapperTest.selectByUsername">
+    <configuration name="IndexControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="smart-security-remember" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zw.smart.remember.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zw.smart.remember.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.zw.smart.remember.controller.IndexControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SysUserMapperTest.selectByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="smart-security-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zw.smart.mybaits.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zw.smart.mybaits.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.zw.smart.mybaits.mapper.SysUserMapperTest" />
+      <option name="METHOD_NAME" value="selectByUsername" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UerControllerTest.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="smart-security-remember" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zw.smart.remember.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zw.smart.remember" />
+      <option name="MAIN_CLASS_NAME" value="com.zw.smart.remember.UerControllerTest" />
+      <option name="METHOD_NAME" value="login" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="smart-user-center" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zw.smart.account.AccountApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="smart-security-hello" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zw.smart.hello.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zw.smart.hello.HelloSecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaillApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="smart-mail" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zw.smart.maill.MaillApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MqServerConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mq-server-producer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zw.mq.mqserverconsumer.MqServerConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisRedisCacheApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatis-redis-cache" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zw.smart.cache.MybatisRedisCacheApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sb-redis-example" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zw.smart.assets.RedisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecurityRememberApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="smart-security-mybatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zw.smart.mybaits.SecurityRememberApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecurityRememberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="smart-security-remember" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zw.smart.remember.SecurityRememberApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecuritySessionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="smart-security-session" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zw.smart.session.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zw.smart.session.SecuritySessionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SysUserMapperTest.selectByUsername" />
+        <item itemvalue="JUnit.IndexControllerTest" />
+        <item itemvalue="Spring Boot.SecuritySessionApplication" />
+        <item itemvalue="JUnit.UerControllerTest.login" />
+        <item itemvalue="Spring Boot.HelloSecurityApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <option name="contentProportion" value="0.34733158" />
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ebceaf29" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ebceaf29" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2176ab5f" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3bb9d102" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3bb9d102" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@2b7fe125" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3bb9d102" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@393bd1d0" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3bb9d102" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@94a7936" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9501763-4910-45e1-b1b4-67665e14c78c" name="Default Changelist" comment="" />
+      <created>1574412881651</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574412881651</updated>
+      <workItem from="1574412886709" duration="1729000" />
+      <workItem from="1574423862062" duration="878000" />
+      <workItem from="1574424745006" duration="1075000" />
+      <workItem from="1574425850351" duration="3395000" />
+      <workItem from="1574652695458" duration="21439000" />
+      <workItem from="1574734157016" duration="18288000" />
+      <workItem from="1574759860669" duration="3580000" />
+      <workItem from="1574764608419" duration="6945000" />
+      <workItem from="1575008184021" duration="4179000" />
+      <workItem from="1575020533951" duration="2543000" />
+    </task>
+    <task id="LOCAL-00001" summary="第一次上传初始化">
+      <created>1574424366944</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574424366944</updated>
+    </task>
+    <task id="LOCAL-00002" summary="第一次上传初始化">
+      <created>1574429263066</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574429263066</updated>
+    </task>
+    <task id="LOCAL-00003" summary="添加邮件封装">
+      <created>1574429333111</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574429333111</updated>
+    </task>
+    <task id="LOCAL-00004" summary="我的智慧社区">
+      <created>1575017802809</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575017802810</updated>
+    </task>
+    <task id="LOCAL-00005" summary="我的智慧社区">
+      <created>1575021860595</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575021860595</updated>
+    </task>
+    <task id="LOCAL-00006" summary="我的智慧社区">
+      <created>1575022913360</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575022913360</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SysUserMapperTest_selectByUsername - 2019.11.26 at 18h 01m 32s.xml">
+      <configuration name="SysUserMapperTest.selectByUsername" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SysUserMapperTest_selectByUsername - 2019.11.26 at 18h 39m 10s.xml">
+      <configuration name="SysUserMapperTest.selectByUsername" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SysUserMapperTest_selectByUsername - 2019.11.26 at 18h 40m 18s.xml">
+      <configuration name="SysUserMapperTest.selectByUsername" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="17247000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32456142" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.55792683" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3292683" />
+      <window_info anchor="bottom" id="Docker" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" visible="true" weight="0.3292683" />
+      <window_info anchor="bottom" id="Problems" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3292683" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.3292683" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3299595" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3299595" />
+      <window_info anchor="right" id="Mybatis datasource" order="7" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="RestServices" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" weight="0.3299595" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一次上传初始化" />
+    <MESSAGE value="添加邮件封装" />
+    <MESSAGE value="我的智慧社区" />
+    <option name="LAST_COMMIT_MESSAGE" value="我的智慧社区" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/smart-security-parent/smart-security-remember/src/main/java/com/zw/smart/remember/dao/RedisPersistentTokenRepository.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/smart-security-parent/smart-security-remember/src/main/java/com/zw/smart/remember/handler/CustomLogoutHandler.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/smart-security-parent/smart-security-remember/src/main/java/com/zw/smart/remember/dao/RedisPersistentTokenRepository.java</url>
+          <line>100</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/smart-security-parent/smart-security-mybatis/src/main/resources/mappers/SysRoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-security-parent/smart-security-mybatis/src/main/java/com/zw/smart/mybaits/mapper/SysRoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-security-parent/smart-security-mybatis/src/main/java/com/zw/smart/mybaits/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding>
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-security-parent/smart-security-mybatis/src/main/resources/mappers/SysUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="77" column="16" lean-forward="true" selection-start-line="77" selection-start-column="15" selection-end-line="77" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-security-parent/smart-security-mybatis/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.2.1.RELEASE/spring-security-config-5.2.1.RELEASE.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="162" column="19" selection-start-line="162" selection-start-column="19" selection-end-line="162" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-security-parent/smart-security-mybatis/src/main/java/com/zw/smart/mybaits/entity/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="51" />
+          <folding>
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+            <element signature="e#994#995#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-security-parent/smart-security-mybatis/src/main/java/com/zw/smart/mybaits/mapper/SysUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-security-parent/smart-security-mybatis/src/main/java/com/zw/smart/mybaits/entity/SysRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="32" />
+          <folding>
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-security-parent/smart-security-mybatis/src/main/java/com/zw/smart/mybaits/configuration/WebSecurityAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="43" column="6" lean-forward="true" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-security-parent/smart-security-mybatis/src/test/java/com/zw/smart/mybaits/mapper/SysUserMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-security-parent/smart-security-mybatis/src/main/java/com/zw/smart/mybaits/service/CustomUserDetailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="66" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-security-parent/smart-security-mybatis/src/main/java/com/zw/smart/mybaits/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-security-parent/smart-security-mybatis/src/main/java/com/zw/smart/mybaits/SecurityRememberApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-security-parent/smart-security-remember/src/main/java/com/zw/smart/remember/configuration/CustomWebSecurityConfigurerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-security-parent/smart-security-remember/src/main/java/com/zw/smart/remember/configuration/RedisConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-security-parent/smart-security-session/src/main/java/com/zw/smart/session/SecuritySessionApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-security-parent/smart-security-session/src/main/resources/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-security-parent/smart-security-session/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetails.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.1.RELEASE/spring-web-5.2.1.RELEASE.jar!/org/springframework/http/MediaType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-692">
+          <caret line="43" column="15" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-security-parent/smart-security-mybatis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-security-parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-security-parent/smart-security-hello/src/main/java/com/zw/smart/hello/configuration/CustomWebSecurityConfigurerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="64" column="4" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
+          <folding>
+            <element signature="e#1767#1768#0" expanded="true" />
+            <element signature="e#1817#1818#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-security-parent/smart-security-hello/src/main/java/com/zw/smart/hello/handler/CustomFailHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-security-parent/smart-security-hello/src/main/java/com/zw/smart/hello/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-security-parent/smart-security-hello/src/main/java/com/zw/smart/hello/HelloSecurityApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-security-parent/smart-security-hello/src/main/java/com/zw/smart/hello/handler/CustomSuccessHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-security-parent/smart-security-hello/src/main/java/com/zw/smart/hello/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-demo/mq-server-producer/target/classes/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart-community-dependencies/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/user-center/error.created_on_2019-11-22.part_0.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1620" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/user-center/info.created_on_2019-11-22.part_0.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/smart-user-center/error.created_on_2019-11-22.part_0.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/spring-boot-demo-logback/info.created_on_2019-11-22.part_0.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

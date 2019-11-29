@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.zw.smart</groupId>
+        <artifactId>dependencies</artifactId>
+        <version>1.0.0.RELEASE</version>
+        <relativePath>../smart-community-dependencies/pom.xml</relativePath>
+    </parent>
+    <packaging>pom</packaging>
+    <artifactId>parent</artifactId>
+    <version>1.0.0.RELEASE</version>
+    <name>smart-community</name>
+    <description>Demo project for Spring Boot</description>
+    <modules>
+        <module>smart-community-dependencies</module>
+        <!--        表示业务模块-->
+
+        <module>smart-mail</module>
+        <module>smart-community-business</module>
+        <module>smart-user-center</module>
+        <!--        表示基础案例-->
+        <module>smart-demo</module>
+        <module>smart-demo/mybatis-redis-cache</module>
+        <module>smart-demo/mq-server-producer</module>
+        <module>smart-demo/mq-server-consumer</module>
+        <module>smart-demo/sb-redis-example</module>
+        <module>smart-security-parent</module>
+        <module>smart-security-parent/smart-security-hello</module>
+        <module>smart-security-parent/smart-security-session</module>
+        <module>smart-security-parent/smart-security-remember</module>
+        <module>smart-security-parent/smart-security-mybatis</module>
+    </modules>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>

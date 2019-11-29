@@ -1,0 +1,39 @@
+version: "3"
+services:
+  rocketmq:
+    image: rocketmqinc/rocketmq:4.5.2
+      container_name: rocketmq-container
+      ports:
+        - 9876:9876
+      volumes:
+        - ./rocketmq/logs:/home/rocketmq/logs
+        - ./rocketmq/store:/home/rocketmq/store
+      command: sh mqnamesrv
+
+  broker:
+    image: rocketmqinc/rocketmq-broker
+    container_name: mq-broker-container
+    ports:
+      - 10909:10909
+      - 10911:10911
+      - 10912:10912
+    volumes:
+      - ./rocketmq/logs:/home/rocketmq/logs
+      - ./rocketmq/store:/home/rocketmq/store
+    depends_on:
+      - rocketmq
+
+  console:
+    image: styletang/rocketmq-console-ng
+    container_name: rocketmq-console-ng  -container
+    ports:
+      - 9000:8080
+    depends_on:
+      - rocketmq
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+rocketmq:
+  name-server: 119.23.190.71:9876
+  producer:
+    group: mq-producer-group
+    access-key: ak
+    secret-key: sk
+
+  app-topic: "app-topic"
+

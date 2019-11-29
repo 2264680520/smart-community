@@ -1,0 +1,45 @@
+rocketmq:
+  name-server: 119.23.190.71:9876
+  user-topic: "user-topic"
+  user-topic-register: "user-topic:register"
+
+spring:
+  mail:
+    # 163配置
+    host: smtp.163.com
+    username: wiener888@163.com
+    password: java123456
+    port: 25
+    properties.mail.smtp.starttls.enable: true
+    properties.mail.smtp.starttls.required: true
+    properties.mail.smtp.starttls.auth: true
+    from-name: wiener888@163.com
+
+    #    # 发送邮件服务器
+  #    host: smtp.qq.com
+  #    设置用户名
+  #    username: 36558563@qq.com
+  #    设置密码，该处的密码是QQ邮箱开启SMTP的授权码而非QQ密码
+  #    password: ghvyzsuxhkxdbhdd
+  #    properties.mail.smtp.starttls.enable: true
+  #    properties.mail.smtp.starttls.required: true
+  #    properties.mail.smtp.starttls.auth: true
+  #    port: 25
+  #    from-name: 36558563@qq.com
+
+  redis:
+    jedis:
+      pool:
+        max-idle: 8
+        min-idle: 0
+        max-active: 8
+        max-wait: -1
+    host: 114.116.232.60
+    port: 6379
+    database: 0
+    timeout: 3000
+    password: ""
+
+active:
+  base-url: http://localhost:8888/api/v2/account/active
+

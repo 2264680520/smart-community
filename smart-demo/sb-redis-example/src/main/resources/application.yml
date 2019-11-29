@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: redis-example
+  redis:
+    jedis:
+      pool:
+        max-idle: 8
+        min-idle: 0
+        max-active: 8
+        max-wait: -1
+    host: 119.23.190.71
+    port: 6379
+    database: 15
+    timeout: 3000
+    password: ""
+
